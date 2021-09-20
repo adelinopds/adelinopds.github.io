@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+
+:root {
+  --main: #88ff08;
+  --bg: #292928;
+  --bg-accent: #191919;
+  --font: #efefef
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--font);
+}
+
+body {
+  background: var(--bg);
+}
+.wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+header {
+  header: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  align-items: center;
+}
+
+header h3 {
+  font-size: 1.3rem;
+  color: #fff
+}
+
+header h3 span {
+  color: var(--main);
+  font-size:.7rem;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header li {
+  margin-left: 1.6rem;
+}
+
+header li:first-child {
+  margin-left: 0rem;
+}
+
+header li a {
+  font-size: .85rem;
+  color: var(--main);
+}
+
+header li:last-child a {
+  color: #fff;
+  border: 2px solid var(--main);
+  padding: .2rem 1rem;
+  text-transform: uppercase;
+}
+
+header li:last-child a i {
+  margin-right: .4rem;
+}
+
+.hero {
+  min-height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+.hero img {
+  position:absolute;
+  bottom:0rem;
+  right:0rem;
+  width:350px;
+  border-radius: 30px;
+  border-top: .25rem solid var(--main);
+  border-right: .25rem solid var(--main);
+}
+
+.hero h1 {
+  color: var(--main);
+  font-weight: 800;
+  font-size: 4.3rem;
+  line-height: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+.tech-stack {
+  margin: 5rem 0rem;
+}
+
+
+.tech-stack h2 {
+  font-size: 2rem;
+  color: var(--main);
+  margin-bottom: 2rem;
+}
+
+.skill-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill small {
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+}
+
+.skill img {
+  width: 50px !important;
+  margin-bottom: .5rem;
+}
